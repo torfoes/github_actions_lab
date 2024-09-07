@@ -37,7 +37,7 @@ gem 'brakeman'
 
 gem 'rubocop'
 
-
+gem 'seed_dump'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
