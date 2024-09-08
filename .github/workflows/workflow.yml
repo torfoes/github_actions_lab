@@ -39,7 +39,7 @@ jobs:
           cmd: install
 
       - name: Seed database
-        run: bundler exec rails db:seed RAILS_ENV=test
+        run: bundler exec rails db:seed RAILS_ENV=test --trace
       - name: Run tests
 
         run: bundler exec rspec .
