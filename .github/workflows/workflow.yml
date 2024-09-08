@@ -43,7 +43,7 @@ jobs:
           bundler exec rails db:migrate RAILS_ENV=test
           bundler exec rails db:seed RAILS_ENV=test --trace
       - name: Run tests
-        run: bundler exec rspec . RAILS_ENV=test
+        run: RAILS_ENV=test bundler exec rspec .
       - name: Run brakeman
         run: brakeman -o brakeman.txt
       - name: Run rubocop
