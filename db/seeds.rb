@@ -8,7 +8,6 @@
 
 puts "Seeding database..."
 
-
 Book.create!([
                {title: "The life of a turtle"},
                {title: "The mirror, the lion and the audacity of the little dog"},
@@ -16,3 +15,5 @@ Book.create!([
                {title: "The weight of a hundred kilograms"},
                {title: "Harry Potter"}
              ])
+
+puts "Finished seeding."
