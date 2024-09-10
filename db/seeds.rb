@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-puts "Seeding database..."
+# puts "Seeding database..."
 
 Book.create!([
                {title: "The life of a turtle"},
@@ -16,4 +16,4 @@ Book.create!([
                {title: "Harry Potter"}
              ])
 
-puts "Finished seeding."
+# puts "Finished seeding."
